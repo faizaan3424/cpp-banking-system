@@ -1,6 +1,4 @@
 #include <iostream>
 #include <cstdlib>
-
-void test() {
-    std::cout<<"meme review";
-}
+#include <string>
+using namespace std;
