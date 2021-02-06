@@ -24,5 +24,5 @@ void withdraw() {
 }
 
 void check() {
-    std::cout << "\nYour current balance is " << balance << ".";
+    std::cout << "\nYour current balance is $" << balance << ".";
 }
