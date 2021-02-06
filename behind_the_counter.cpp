@@ -12,9 +12,17 @@ void deposit() {
 }
 
 void withdraw() {
-
+    int withdrawal;
+    std::cout << "\nHow much would you like to withdraw? ";
+    std::cin >> withdrawal;
+    if(balance - withdrawal < 0) {
+        std::cout << "\nSorry but you don't have enough in your account to withdraw $" << withdrawal << ".";
+        return;
+    }
+    balance -= withdrawal;
+    std::cout << "\n$" << withdrawal << " has been withdrawn to your account.";
 }
 
 void check() {
-    
+    std::cout << "\nYour current balance is " << balance << ".";
 }
