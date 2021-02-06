@@ -15,9 +15,8 @@ string getUserAction() {
 
 int main() {
     string userAction{ getUserAction() };
-    /*while (true) {
-        break;
-    }*/
-    std::cout << userAction;
+    if (userAction == "deposit") deposit();
+    else if (userAction == "withdraw") withdraw();
+    else check();
     return EXIT_SUCCESS;
 }
