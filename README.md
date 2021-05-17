@@ -1,2 +1,2 @@
 # cpp-banking-system
-This is a simple banking system made with C++!
+This is a banking system made with C++! As of now, the system is text based.
